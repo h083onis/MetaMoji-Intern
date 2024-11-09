@@ -1,7 +1,6 @@
 {
     "dockerComposeFile": "../docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/app"
-    // "postCreateCommand": "git config --global init.defaultBranch main",
-    // "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+    "workspaceFolder": "/app",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
