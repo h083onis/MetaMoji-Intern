@@ -1,4 +1,6 @@
 '__pycache__/'
 .env
 scraping/*.txt
-scraping/*.json
+scraping/**/*.json
+scraping/**/*.csv
+scraping/**/*.zip
