@@ -2,5 +2,11 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/app",
-    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+    "customizations": {
+        "extensions": [
+            "ms-python.python",
+            "ms-toolsai.jupyter"  // Jupyter拡張を追加
+        ]
+    }
 }

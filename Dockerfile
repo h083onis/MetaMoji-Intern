@@ -10,5 +10,4 @@ COPY requirements.lock .
 # 必要なパッケージをインストール
 RUN pip install -r requirements.lock && rm requirements.lock
 
-# 必要なポートを公開（例としてポート8000を指定）
-EXPOSE 8000
+CMD ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", "8080"]
