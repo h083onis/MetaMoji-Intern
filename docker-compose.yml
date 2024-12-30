@@ -8,4 +8,4 @@ services:
       - .:/app  # ローカルのカレントディレクトリをコンテナの/appディレクトリにマウント
     ports:
       - "8080:8080"  # ローカルポート8080をコンテナのポート8080にマッピング
-    # command: /bin/bash -c "tail -f /dev/null"
+    command: /bin/bash -c "tail -f /dev/null"
