@@ -88,16 +88,4 @@ class RecipeProcessor():
             return records
         
         return None
-
-        """
-        {
-    'keys': ['key1', 'key2', ... 'keyN'], # recordsの中で用いるキーの一覧
-    'records': [
-        {'key1': value-11, 'key2': value-21, ... 'keyN': value-N1}, 
-        {'key1': value-12, 'key2': value-22, ... 'keyN': value-N2}, 
-        ...,
-        {'key1': value-1m, 'key2': value-2m, ... 'keyN': value-Nm}, 
-    ],
-    'message': エラーメッセージ or null(success)
-        }
-        """
+    

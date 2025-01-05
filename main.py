@@ -160,8 +160,6 @@ def recipePut(json_data: dict):
         results["message"] = f"条件に合うレシピが{status}件見つかりました"
     return results
 
-# [JSON] {'_userName': '大西 真輝', '_noteTitle': '食材フォーム', '_noteLink': 'https://mps-beta.metamoji.com/link/TbhXHepm-YEMGXRy1bSR6awh.mmjloc', '_pageLink': 'https://mps-beta.metamoji.com/link/5FktPA7lXE7aNNhph-DMw7uD.mmjloc', '_driveId': '3080466101', '_documentId': 'ab2f8c7a-0eda-48c6-87e7-d6e8ece81b95--3078700101', '_objectType': 2, '_objectId': '__subId_v2_[15accacb-3105-40fe-9309-bd1b2957fe6d]_[page]_106', '_pageId': '__subId_v2_[15accacb-3105-40fe-9309-bd1b2957fe6d]_[page]_106', '_x': 0, '_y': 0, '_width': 556, '_height': 417,
-#  'vegetables': 'しめじ'}
 #
 # HISTORY
 # [1] 2024-12-XX - Initial version
